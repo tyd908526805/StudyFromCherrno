@@ -40,6 +40,7 @@ class ScopedPtr
         }
 };
 
+#if 0
 int main()
 {
     /*
@@ -56,3 +57,4 @@ int main()
         ScopedPtr e1 = new Entity();
     }
 }
+#endif
