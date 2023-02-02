@@ -64,7 +64,7 @@ std::ostream& operator<<(std::ostream& stream, const String& string)
     stream << string.m_Buffer;
     return stream;
 }
-
+#if 0
 // 这样会执行拷贝构造函数
 // void PrintString(String string)
 void PrintString(const String& string)
@@ -103,3 +103,4 @@ int main()
     PrintString(string);
     PrintString(second);
 }
+#endif
