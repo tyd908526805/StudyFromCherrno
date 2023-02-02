@@ -26,6 +26,7 @@ class Entity
         void Print() {}
 };
 
+#if 0
 int main()
 {
     {
@@ -65,3 +66,4 @@ int main()
         }
     }
 }
+#endif
