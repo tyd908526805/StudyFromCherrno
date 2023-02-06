@@ -35,6 +35,7 @@ class ScopedPtr
         }
 };
 
+#if 0
 struct Vector3
 {
     float x, y, z;
@@ -66,3 +67,4 @@ int main()
     // int offset = (int)&((Vector3*)nullptr)->z;
     // std::cout << offset << std::endl;
 }
+#endif 
